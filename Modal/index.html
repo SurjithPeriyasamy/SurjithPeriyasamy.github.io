@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand Made Modal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button class="button center">Open Modal</button>
+    <div id="bg"></div>
+    <div id="box">
+        <h1>Hello My Modal</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Expedita commodi explicabo mollitia velit reprehenderit
+            voluptatibus molestias quibusdam itaque enim corrupti.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Expedita commodi explicabo mollitia velit reprehenderit
+            voluptatibus molestias quibusdam itaque enim corrupti.</p>
+        <div class="right">
+            <button class="cbut js">Close</button>
+            <button class="abut js">Accept</button>
+        </div>
+
+    </div>
+
+    <script src="app.js"> </script>
+        
+
+       <!--
+        class button{
+            constructor(){
+                this.box=document.getElementById("box")
+                this.bg =document.getElementById("bg")
+            }
+            open(){
+                this.bg.style.opacity="1"
+                this.bg.style.zIndex="1"
+                this.box.style.opacity="1"
+                this.box.style.zIndex="1"
+                this.box.style.transition= "all 0.20s ease-in-out"
+            }
+        }
+        const surjith =new button()
+        let but = document.querySelector(".button")
+
+        but.addEventListener('click',(event)=>{
+            surjith.open()
+        })
+        -->
+        
+        
+   
+</body>
+</html>
